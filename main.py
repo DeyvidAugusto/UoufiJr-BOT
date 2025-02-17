@@ -16,3 +16,5 @@ async def on_ready():
 @bot.command(name='opa')
 async def opa(ctx):
     await ctx.send('Opa!')
+
+bot.run(TOKEN)
